@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+
+h6 {
+  font-family: Fira Sans, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  color: white;
+  font-weight: 600; }
+
+.bg-black {
+  background-color: black; }
+
+  .btn-eliminar {
+    margin-left: 350px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding-right: 8px;
+    padding-left: 8px; }
+    .btn-eliminar:hover {
+      background-color: red;
+      color: white;
+      border: 2px solid red; }
+
+#botonera {
+  animation-name: textAlpha;
+  animation-duration: 4s; }
+  #botonera img {
+    width: 180px; }
+    @media (min-width: 280px) and (max-width: 300px) {
+      #botonera img {
+        width: 120px; } }
+    #botonera img li {
+      animation-name: textAlpha;
+      animation-duration: 4s; }
+      #botonera img li a {
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s; }
+        #botonera img li a:hover {
+          color: black;
+          font-weight: 600; }
+
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+  #botonera #logo-animado {
+    animation-name: textAlpha;
+    animation-duration: 4s; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+
+  .btn-comprar {
+    margin-left: 6px;
+    margin-top: 10px;
+    background-color: white;
+    color:green;
+    border: 2px solid green;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding-right: 8px;
+    padding-left: 8px; }
+    .btn-comprar:hover {
+      background-color: green;
+      color: white;
+      border: 2px solid green; }
+
+.bg-boxes {
+  background-color: black; }
+
+#font-nav {
+  font-size: 20px; }
+
+#font-titles {
+  font-size: 20px;
+  font-weight: 600; }
+
+#btn-comprar {
+  background-color: #343232;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  padding: 4px;
+  margin-bottom: 5px; }
+  #btn-comprar:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red; }
+
+h1 {
+  font-size: 20px; }
+
+#slide div {
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+#footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black; }
+
+.text-deco {
+  text-decoration: none; }
+
+#redes {
+  width: 40px;
+  height: 30px;
+  padding-right: 10px; }
+

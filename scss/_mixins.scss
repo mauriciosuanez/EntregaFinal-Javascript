@@ -1,0 +1,47 @@
+//extend
+
+.tituloMujeres
+{
+    width: 90%;
+    color: $mainColor;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.tituloContacto{
+    @extend .tituloMujeres;
+    color: $secondaryColor;
+    margin-top: 0px;
+}
+
+
+
+//mixin
+
+@mixin texto($size, $interlineado, $color){
+    font-family: $mainFont;
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+}
+
+h6{
+    @include texto($textSm, 2em, white);
+    font-weight: $bold
+}
+
+//map
+$paleta:(
+    'uno': black,
+    'dos': white,
+    'tres': #027333,
+    'cuatro': red,
+    
+);
+
+.bg-black{
+    background-color: map-get($map:$paleta, $key: uno);
+}

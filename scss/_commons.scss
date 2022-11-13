@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-boxes{
+    background-color: $secondaryColor;
+}
+
+#font-nav{
+    font-size: $textSm;
+}
+
+#font-titles{
+    font-size: $textSm;
+    font-weight:$bold;
+}
+
+
+#btn-comprar{
+        background-color: rgb(52, 50, 50);
+        color: $mainColor;
+        border: 2px solid $mainColor;
+        border-radius: 5px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        padding: 4px;
+        margin-bottom: 5px;
+    &:hover {
+        background-color: red;
+        color: $mainColor;
+        border: 2px solid red;
+    }
+}
+
+h1{
+    font-size: $textSm;
+}
+

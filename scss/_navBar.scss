@@ -1,0 +1,55 @@
+
+.btn-buscar{
+    background-color: $mainColor;
+    color: $keyColor;
+    border: 2px solid $keyColor;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding-right: 8px;
+    padding-left: 8px;
+&:hover {
+    background-color: $keyColor;
+    color: $mainColor;
+    border: 2px solid $keyColor;
+}
+}
+
+#botonera{
+    animation-name: textAlpha;
+    animation-duration: 4s;
+    img{
+    width: 180px;
+    @media (min-width: 280px) and (max-width: 300px){
+        width:120px
+        }
+    
+        li{
+        animation-name: textAlpha;
+        animation-duration: 4s;
+
+        a{
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            &:hover{
+			color: $secondaryColor;
+			font-weight: $bold;
+                    }
+        }
+    
+            }
+        }
+
+    @keyframes textAlpha{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }
+        
+#logo-animado{
+    animation-name: textAlpha;
+    animation-duration: 4s;
+    }
+
+}

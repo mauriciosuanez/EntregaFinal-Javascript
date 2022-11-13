@@ -1,0 +1,38 @@
+ [
+        {
+            "precio": 15800,
+            "id": 1,
+            "file": "img/agiledel.png",
+            "title": "Agile (Chevrolet)"
+        },
+        {
+            "precio": 17200,
+            "id": 2,
+            "file": "img/paragolpe-1.png",
+            "title": "Power (volkswagen)"
+        },
+        {
+            "precio": 18900,
+            "id": 3,
+            "file": "img/prismadel.png",
+            "title": "Prisma (chevrolet)"
+        },
+        {
+            "precio": 21300,
+            "id": 4,
+            "file": "img/corolladel.png",
+            "title": "Corolla (toyota)"
+        },
+        {
+            "precio": 19400,
+            "id": 5,
+            "file": "img/paragolpe2.png",
+            "title": "ka (ford)"
+        },
+        {
+            "precio": 14600,
+            "id": 6,
+            "file": "img/paragolpe.jpg",
+            "title": "Punto (fiat)"
+        }
+    ]
